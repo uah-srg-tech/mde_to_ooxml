@@ -15,7 +15,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include "../gss_qt/XMLParsingTools/XMLTools.h"
+#include "../massiva/XMLParsingTools/XMLTools.h"
 
 #ifndef MDE_TO_OOXML_H
 #define MDE_TO_OOXML_H

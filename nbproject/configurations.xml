@@ -4,8 +4,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../gss_qt/XMLParsingTools/XMLTools.c</itemPath>
-      <itemPath>../gss_qt/XMLParsingTools/XMLTools.h</itemPath>
+      <itemPath>../massiva/XMLParsingTools/XMLTools.c</itemPath>
+      <itemPath>../massiva/XMLParsingTools/XMLTools.h</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>mde_to_ooxml.cpp</itemPath>
       <itemPath>mde_to_ooxml.h</itemPath>
@@ -57,12 +57,12 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="../gss_qt/XMLParsingTools/XMLTools.c"
+      <item path="../massiva/XMLParsingTools/XMLTools.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../gss_qt/XMLParsingTools/XMLTools.h"
+      <item path="../massiva/XMLParsingTools/XMLTools.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -120,12 +120,12 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="../gss_qt/XMLParsingTools/XMLTools.c"
+      <item path="../massiva/XMLParsingTools/XMLTools.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../gss_qt/XMLParsingTools/XMLTools.h"
+      <item path="../massiva/XMLParsingTools/XMLTools.h"
             ex="false"
             tool="3"
             flavor2="0">

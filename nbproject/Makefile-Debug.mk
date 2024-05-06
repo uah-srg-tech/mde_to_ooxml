@@ -64,10 +64,10 @@ ${CND_CONF}/mde_to_ooxml.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_CONF}
 	${LINK.cc} -o ${CND_CONF}/mde_to_ooxml ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o: ../gss_qt/XMLParsingTools/XMLTools.c
+${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o: ../massiva/XMLParsingTools/XMLTools.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/6e2d5a1d
 	${RM} "$@.d"
-	$(COMPILE.c) -g -Wall -DLIBXML_STATIC -I/C/msys/1.0/mingw32/include/libxml2 -I/C/msys/1.0/mingw32/include/minizip -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o ../gss_qt/XMLParsingTools/XMLTools.c
+	$(COMPILE.c) -g -Wall -DLIBXML_STATIC -I/C/msys/1.0/mingw32/include/libxml2 -I/C/msys/1.0/mingw32/include/minizip -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o ../massiva/XMLParsingTools/XMLTools.c
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
